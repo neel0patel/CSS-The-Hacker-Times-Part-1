@@ -66,15 +66,23 @@ p {
   margin-top: 1em;
   margin-bottom: 1em;
   padding-left: 0;
+  padding-bottom: 0.5em;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
 }
 
-.more-articles {
+.more-articles section {
   display: inline-block;
-  border: 1px top blue;
+  width: 44%;
+  margin: 0 1em;
 }
 
 body {
   background-color: lightgray;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
